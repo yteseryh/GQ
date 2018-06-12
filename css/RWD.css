@@ -106,6 +106,12 @@
 	section{
 		width:100%;
 	}
+	
+	.music{
+		top:41%;
+		z-index: 2;
+	}
+	
 	.resume .gq_img .mypic{
 		display: -webkit-box;
 		-webkit-box-pack: center;
@@ -120,18 +126,26 @@
 	.aboutme span{
 		font-size: 18px;
 	}
+	
 	header .logo a{
 		font-size: 18px;
 	}
 	header li a{
 		font-size: 16px;
 	}
+	
 	#course .content p{
 		font-size: 13px;
 	}
 	#course li strong{
 		font-size: 13px;
 	}
+	#course .content .img{
+		display: -webkit-box;
+		-webkit-box-pack: center;
+		-webkit-box-align: center;
+	}
+	
 	aside{
 		width:100%;
 		margin-top: 0;
@@ -140,15 +154,13 @@
 		width:50%;
 		margin:20px auto;
 	}
+	
 	#message strong{
 		font-size: 36px;
 		top:80px;
 		left:30%;
 	}
-	.music{
-		top:41%;
-		z-index: 2;
-	}
+	
 	#message{
 		width:100%;
 	}
@@ -160,12 +172,6 @@
 		width:18%;
 		top:37%;
 		z-index: 2;
-	}
-	.music .music_img{
-		height:13px;
-	}
-	.music img{
-		height:50px;
 	}
 	
 	header .head{
@@ -336,12 +342,6 @@
 		width:18%;
 		top:37%;
 		z-index: 2;
-	}
-	.music .music_img{
-		height:13px;
-	}
-	.music img{
-		height:50px;
 	}
 	
 	header .head{
