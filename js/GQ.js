@@ -58,6 +58,23 @@ $(function(){
 		}, false);
 	})();
 	
+	//搜索框字符
+	(function(){
+		var text = $(".search .text");
+		console.log(text.val());
+		text.val("2018.06.10 by 官青");
+		text.click(function(){
+			if(text.val()=="2018.06.10 by 官青"){
+				text.val("");
+			}
+		});
+		text.blur(function(){
+			if(text.val()==""){
+				text.val("2018.06.10 by 官青");
+			}
+		});
+	})();
+	
 	//移动端音乐播放
 // 	(function(){
 // 		//--创建页面监听，等待微信端页面加载完毕 触发音频播放
