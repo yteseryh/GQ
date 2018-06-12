@@ -244,6 +244,15 @@
 	#course li strong{
 		font-size: 12px;
 	}
+	#course .content .img{
+		display: -webkit-box;
+		-webkit-box-pack: center;
+		-webkit-box-align: center;
+	}
+	
+	section .movelist li,.movelist li img{
+		height:150px;
+	}
 	
 	aside{
 		width:100%;
@@ -308,6 +317,11 @@
 	#message li{
 		font-size: 12px;
 	}
+	#message img{
+		width:20px;
+		height:20px;
+	}
+	
 	footer{
 		font-size: 16px;
 	}
@@ -406,6 +420,15 @@
 	#course li strong{
 		font-size: 12px;
 	}
+	#course .content .img{
+		display: -webkit-box;
+		-webkit-box-pack: center;
+		-webkit-box-align: center;
+	}
+	
+	section .movelist li,.movelist li img{
+		height:150px;
+	}
 	
 	aside{
 		width:100%;
@@ -470,6 +493,11 @@
 	#message li{
 		font-size: 12px;
 	}
+	#message img{
+		width:20px;
+		height:20px;
+	}
+	
 	footer{
 		font-size: 16px;
 	}
