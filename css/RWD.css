@@ -108,6 +108,7 @@
 	}
 	
 	.music{
+		width:22%;
 		top:41%;
 		z-index: 2;
 	}
@@ -122,6 +123,7 @@
 	}
 	.resume .text span{
 		font-size: 16px;
+		width:37%;
 	}
 	.aboutme span{
 		font-size: 18px;
@@ -169,7 +171,7 @@
 /*320-639分辨率*/
 @media only screen and (max-width:639px) and (min-width:320px) {
 	.music{
-		width:18%;
+		width:22%;
 		top:37%;
 		z-index: 2;
 	}
@@ -223,7 +225,7 @@
 		line-height: 20px;
 	}
 	.resume .text span{
-		font-size: 12px;
+		font-size: 10px;
 		width:37%;
 	}
 	
