@@ -59,15 +59,27 @@ $(function(){
 	})();
 	
 	//移动端音乐播放
+// 	(function(){
+// 		//--创建页面监听，等待微信端页面加载完毕 触发音频播放
+// 		document.addEventListener('WeixinJSBridgeReady', function() {
+// 			document.getElementById('music').play();
+// 		});
+// 		//--创建触摸监听，当浏览器打开页面时，触摸屏幕触发事件，进行音频播放
+// 		document.addEventListener('touchstart', function() {
+// 			document.getElementById('music').play();
+// 		});
+// 	})();
+	
 	(function(){
-		//--创建页面监听，等待微信端页面加载完毕 触发音频播放
-		document.addEventListener('WeixinJSBridgeReady', function() {
-			document.getElementById('music').play();
-		})
-		//--创建触摸监听，当浏览器打开页面时，触摸屏幕触发事件，进行音频播放
-		document.addEventListener('touchstart', function() {
-			document.getElementById('music').play();
-		})
+		function audioAutoPlay(id){
+			var audio = document.getElementById(id);
+			audio.play();
+			document.addEventListener("WeixinJSBridgeReady", function () {
+            audio.play();
+			}, false);
+		}
+		audioAutoPlay('music');
+
 	})();
 	
 });
