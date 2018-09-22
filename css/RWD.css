@@ -93,6 +93,9 @@
 	.music{
 		top:41%;
 	}
+	.work-img img{
+		width: 30%;
+	}
 }
 
 /*640-767分辨率*/
@@ -165,6 +168,10 @@
 	
 	#message{
 		width:100%;
+	}
+
+	.work-img img{
+		width: 30%;
 	}
 }
 
@@ -336,6 +343,25 @@
 	footer span{
 		font-size: 12px;
 	}	
+
+	.work-img{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.work-img img{
+		width: 80%;
+		height: 500px;
+	}
+	.work-title{
+		font-size: 14px;
+	}
+	.knowledge{
+		font-size: 11px;
+	}
+	.work-link{
+		font-size: 12px;
+	}
 }
 
 /*320分辨率以下*/

@@ -219,6 +219,38 @@ section .resume{
 	cursor: pointer;
 }
 
+.works{
+	background-color: #fff;
+	margin-top: 20px;
+	border-radius: 10px;
+	padding: 0 20px 10px 20px;
+}
+.work-content{
+	width: 100%;
+	margin-top: 15px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #ccc;
+}
+.work-title{
+	font-size: 18px;
+	color: cadetblue;
+	font-weight: bold;
+}
+.knowledge{
+	margin: 10px 0;
+	font-size: 16px;
+}
+.work-link{
+	font-size: 16px;
+	color: red;
+}
+.work-img{
+	width: 100%;
+}
+.work-img img{
+	width: 33%;
+}
+
 
 section #course{
 	background: #FFFFFF;
